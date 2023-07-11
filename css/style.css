@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../rose-petals.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* h1 {
+    font-size: 70px;
+    color: #e0eff2;
+    font: italic bold 90px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+} */
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+  
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+  
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+  
+  .title-word-3 {
+    --color-1: #13e0c8;
+    --color-2: #74ed6d;
+    --color-3: #ACCFCB;
+}
+  
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #bdf736;
+}
+  
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.p1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+button:hover{
+    background-color: #13e0c8;
+}
+#quotes-p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
